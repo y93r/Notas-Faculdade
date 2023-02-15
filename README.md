@@ -4,9 +4,7 @@ Meu primeiro projeto em python é baseado em minhas notas faculdade que usa peso
 O primeiro projeto usava if e else, o segundo if,elif e else e o terceiro agreguei o while.
 
 # Abrir o site da faculdade
-- Automação usando a biblioteca selenium
+- Automação usando a biblioteca selenium para abrir o navegador Google Chrome ou Edge;
 - Abrir o site da faculdade;
-- Colocar login e senha;
+- Digitar login e senha e clicar no botão entrar;
 - Clicar na opção AVA;
-- Fechar pop-up;
-- E abrir a parte das matérias em andamento
