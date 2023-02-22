@@ -8,3 +8,5 @@ O primeiro projeto usava if e else, o segundo if,elif e else e o terceiro agregu
 - Abrir o site da faculdade;
 - Digitar login e senha e clicar no botão entrar;
 - Clicar na opção AVA;
+- Fechar pop-up;
+- Seguir para as matérias em andamento
