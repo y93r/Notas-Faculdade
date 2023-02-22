@@ -21,3 +21,19 @@ navegador.find_element(By.ID, 'loginBtn').click()
 #clicando no univirtus
 time.sleep(1.0)
 navegador.find_element(By.ID, 'loginBoxAva').click()
+
+#fechar popup
+from selenium.common.exceptions import NoSuchElementException
+time.sleep(1.5)
+
+try:
+	navegador.find_element(By.ID,'fecharModalPopup').click()
+    
+except NoSuchElementException:
+    pass
+
+#link para abrir disciplinas em andamento
+time.sleep(1.5)
+navegador.find_element(By.XPATH, '//*[@id="escola_9"]').click()
+time.sleep(0.5)
+navegador.find_element(By.XPATH,'//*[@id="curso_633"]/div[1]/h4/a/span[2]').click()
