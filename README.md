@@ -3,12 +3,14 @@ Meu primeiro projeto em python é baseado em minhas notas faculdade que usa peso
 O primeiro projeto usava if e else, o segundo if,elif e else e o terceiro agreguei o while.
 
 # Abrir o site da faculdade
+```
+Python: 3.10.9
+Selenium: 4.11.2
+```
 - Automação usando a biblioteca selenium para abrir o navegador Google Chrome ou Edge;
 - Abrir o site da faculdade;
 - Digitar login e senha e clicar no botão entrar;
 - Clicar na opção AVA;
-- Fechar pop-up;
-- Seguir para as matérias em andamento
 
 # simulador_notas
 Este script é um simulador de notas da faculdade que utiliza a média ponderada, onde cada atividade tem um peso diferente. A APOL 1 e 2 têm peso 15, a atividade prática tem peso 40 e a prova objetiva tem peso 30.
